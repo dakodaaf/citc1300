@@ -23,14 +23,19 @@ img{
 nav{
 text-align: center;
 margin: 20px 0;
-margin: 0 40px;
-font-weight: bold;
+
 
 }
 nav a {
     font-size: 24px;
     color: black;
+    margin: 0 20px;
+font-weight: bold;
 }
 nav a:hover { text-decoration: none;
 
+}
+h1, h2, h3, footer {
+
+    text-align: center;
 }
