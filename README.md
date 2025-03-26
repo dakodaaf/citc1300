@@ -5,6 +5,6 @@
 </li>
 
 <li>
-<a href="html_to_css/index.html" target="_blank">html5 and intro css</a>
+<a href="HTML5_intro_to_css/index.html" target="_blank">HTML5 and intro to css</a>
 </li>
 </ul>
