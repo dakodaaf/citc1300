@@ -8,13 +8,9 @@ body {
 width: 1200px;
 margin: 40px auto;
 border: 2px solid black;
-padding: 20px;
+padding: 20px;}
 #banner {
-
     width: 100%;
-}
-
-
 }
 
 img{
@@ -22,12 +18,15 @@ img{
     margin: 0 auto;
     width: 1000px;
 }
+.heading_style {
 
+    text-shadow: 2px 1px 2px #07097c;
+}
 
 nav{
 text-align: center;
 margin: 20px 0;
-background-color: aqua;
+background-color:#07097c ;
 border-radius: 20px;
 }
 
