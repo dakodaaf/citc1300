@@ -5,18 +5,37 @@ body {
 
 #container {
     background-color: white;
-width: 1200px;
+width: 65%;
 margin: 40px auto;
 border: 2px solid black;
 padding: 20px;}
 #banner {
     width: 100%;
 }
+#col1 {
+width: 50%;
+border: 2px solid black;
+margin: 20px;
+padding: 20px;
 
+}
+
+#col2 {
+
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.game_pic {
+
+    width: 50%;
+}
 img{
     display: block;
     margin: 0 auto;
-    width: 1000px;
+    width: 100%;
 }
 .heading_style {
 
@@ -52,6 +71,8 @@ nav a:hover {
     background-color: white;
     color: black;
 }
+
+#two_col {display: flex;}
 
 h1, h2, h3, footer {
 
