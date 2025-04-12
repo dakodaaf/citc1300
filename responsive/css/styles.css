@@ -1,81 +1,50 @@
-body {
+/* gobal styles */
 
-    background-color: blue;
-}
-
-#container {
-    background-color: white;
-width: 65%;
-margin: 40px auto;
-border: 2px solid black;
-padding: 20px;}
-#banner {
-    width: 100%;
-}
-#col1 {
-width: 50%;
-border: 2px solid black;
-margin: 20px;
-padding: 20px;
+body {   
+background-color: #2CC7F5;
 
 }
-
-#col2 {
-
-    width: 50%;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-}
-
-.game_pic {
-
-    width: 50%;
-}
-img{
+img {
     display: block;
     margin: 0 auto;
     width: 100%;
-}
-.heading_style {
+ }
+ #container { 
+    background-color: #6BEAE1;
+ }
 
-    text-shadow: 2px 1px 2px #07097c;
-}
+ /*mobile styles */
 
-nav{
+@media (min-width: 320px) {
+
+    nav {background-color: #6258A6;
+    padding: 10px;
+margin-top: 10px;
 text-align: center;
-margin: 20px 0;
-background-color:#07097c ;
-border-radius: 20px;
+
 }
 
+nav ul {list-style-type: none;  padding: 0;}
 
+nav li {
 
-nav ul{ list-style: none;}
-nav li {display: inline-block;
-padding: 0
-;}
-nav li a {   
-display: block;
- color: aliceblue;
+    display: block;
+}
+nav li a{  display: block;
+height: 30px;
+line-height: 40px;
+background-color: #2a93cb;
 font-size: 24px;
-font-weight:bold ;
 text-decoration: none;
-margin:0 20px;
-width: 125px;
-height: 40px;
-line-height:  40px; 
+margin-top: 5px;
 }
-nav a:hover {
+nav li a:hover { background-color: azure;}
 
-    background-color: white;
-    color: black;
+main {padding: 20px; }
+h1, h2, h3 {text-align: center;
+color: #2a93cb;
+text-shadow: 1px 1px 1px black;}
+
+footer { text-align: center;
+padding: 40px;}
 }
-
-#two_col {display: flex;}
-
-h1, h2, h3, footer {
-
-    text-align: center;
-}
-
