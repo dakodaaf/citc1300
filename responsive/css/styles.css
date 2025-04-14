@@ -60,7 +60,38 @@ height: 50px;
 line-height: 50px;
 
 }
-.movie_post {width: 400px;}
 
+
+.movie_post {width: 400px;}
+}
+/*desktop styles */
+
+@media (min-width: 1024px) {
+#container {
+
+width: 65%;
+margin: 20px auto;
+border: #2a93cb;
+border-radius: 20px;
+}
+nav li a {background-color: #6258A6;
 
 }
+
+
+
+nav {padding: 0}; 
+
+hr {display: none;}
+
+#multi_col {display: flex;}
+.col {
+margin: 20px;
+padding: 20px;
+border: 2px solid black;
+
+}
+}
+
+
+
