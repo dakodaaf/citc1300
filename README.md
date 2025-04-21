@@ -9,6 +9,7 @@
 </li>
 <li> <a href="adv_css/index.html" target="_blank">adv_css</a>    </li>
 <li><a href="responsive/index.html" target="_blank">responsive</a> </li>
+<li> <a href="final_project/index.html" target="_blank">final_project</a> </li>
 
 
 </ul>
