@@ -69,7 +69,7 @@ text-align: center;
         margin: 20px;
         padding: 20px;
     }
-    #two_col {display: flex;}
+    #container {display: flex;}
 
 nav li {display: inline-block;}
 nav li a {width: 120px;
