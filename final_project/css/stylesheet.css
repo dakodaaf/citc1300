@@ -10,8 +10,18 @@ main {padding: 20px;}
 h1, h2, h3 {text-align: center;
 color: #be1648f7;
 text-shadow: 1px 1px 1px black;}
- p {color: white;}
-ul {color: white;}
+p{ color: white;
+
+    .lora-uniquifier {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  }
+ul {color: white;
+text-align: center;
+list-style-type: none;}
 ol {color: white;
 text-align: left;}
     nav{
@@ -49,6 +59,8 @@ text-align: left;}
         iframe {width: auto;
         height: auto;
     }
+   
+      
 
                
 @media (min-width: 320px) {
@@ -70,7 +82,7 @@ text-align: center;
     #col2 {
 
         width: 50%;
-        border: 2px solid rgb(205, 202, 202);
+        border: 2px transparent rgb(205, 202, 202);
         margin: 20px;
         padding: 20px;
     }
