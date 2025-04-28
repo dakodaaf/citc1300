@@ -10,15 +10,12 @@ main {padding: 20px;}
 h1, h2, h3 {text-align: center;
 color: #be1648f7;
 text-shadow: 1px 1px 1px black;}
-p{ color: white;
 
-    .lora-uniquifier {
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }
-  }
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
+#col1 {font-family: "Cascadia Code", sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+p { color: white;
+font-family: "Bebas Neue", sans-serif;}
 ul {color: white;
 text-align: center;
 list-style-type: none;}
