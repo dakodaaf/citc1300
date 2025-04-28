@@ -12,7 +12,8 @@ color: #be1648f7;
 text-shadow: 1px 1px 1px black;}
  p {color: white;}
 ul {color: white;}
-ol {color: white;}
+ol {color: white;
+text-align: left;}
     nav{
         text-align: center;
         margin: 50px 0;
@@ -45,6 +46,9 @@ ol {color: white;}
         }
         footer { text-align: center;
         color: pink;}
+        iframe {width: auto;
+        height: auto;
+    }
 
                
 @media (min-width: 320px) {
