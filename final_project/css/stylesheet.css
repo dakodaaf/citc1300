@@ -27,7 +27,8 @@ font-family: "Bebas Neue", sans-serif;}
 
 ul {color: white;
 text-align: center;
-list-style-type: none;}
+list-style-type: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 ol {color: white;
 text-align: left;}
