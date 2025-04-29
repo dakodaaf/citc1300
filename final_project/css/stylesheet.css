@@ -11,17 +11,28 @@ h1, h2, h3 {text-align: center;
 color: #d3587d;
 text-shadow: 1px 1px 1px black;}
 
+iframe {width: 500;height: 315; aspect-ratio: 16/9}
+#link {text-align: center;
+color: white}
+
 @import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
+
 #col1 {font-family: "Cascadia Code", sans-serif;}
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 p { color: white;
 font-family: "Bebas Neue", sans-serif;}
+
 ul {color: white;
 text-align: center;
 list-style-type: none;}
+
 ol {color: white;
 text-align: left;}
-a href {text-align: center;}
+
+a  {text-align: center;}
+
     nav{
         text-align: center;
         margin: 50px 0;
