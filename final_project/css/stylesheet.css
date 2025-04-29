@@ -12,9 +12,10 @@ color: #d3587d;
 text-shadow: 1px 1px 1px black;}
 
 iframe {width: 500;height: 315; aspect-ratio: 16/9}
-#link {text-align: center;
-color: white}
 
+#link {text-align: center;}
+div a {color: white}
+div a:hover {color: black}
 @import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
 
 #col1 {font-family: "Cascadia Code", sans-serif;}
