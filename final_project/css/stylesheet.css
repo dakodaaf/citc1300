@@ -82,7 +82,8 @@ a  {text-align: center;}
 
 text-align: center;}
 
-body {background-image: url(../images/Pink-Floyd-Album-Art-Main-Image.jpg);}
+body {background-image: url(../images/Pink-Floyd-Album-Art-Main-Image.jpg); }
+
 
 @media  (min-width: 768px)
 {#col1 {
